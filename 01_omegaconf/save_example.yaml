@@ -1,0 +1,12 @@
+server:
+  port: 81
+  hostname: localhost
+log:
+  file: log.txt
+  rotation: 3600
+users:
+- user1
+- user2
+database:
+  hostname: database01
+  port: 3306

@@ -1,0 +1,38 @@
+# boolean: TRUE  #true,True都可以
+# float: 3.14
+# int: 123
+# nodeName: node
+# parent: ~  #使用~表示null
+# string: 'Hello world'  #可以使用双引号或者单引号包裹特殊字符
+# date: 2018-02-17    #日期必须使用ISO 8601格式，即yyyy-MM-dd
+# datetime:  2018-02-17T15:02:31+08:00    #时间使用ISO 8601格式，时间和日期之间使用T连接，最后使用+代表时区
+# number:
+#   - 1
+#   - 2
+#   - 3
+# digit: [one, two, three]
+# key: 
+#     child-key: value
+#     child-key2: value2
+# companies:
+#     -
+#         id: 1
+#         name: company1
+#         price: 200W
+#     -
+#         id: 2
+#         name: company2
+#         price: 500W
+
+# account: &account
+#   user: root
+#   pass: 1234
+# db:
+#   driver: mysql
+#   <<: *account
+# account: &account
+#   user: root
+#   pass: 1234
+# db:
+#   driver: mysql
+#   account: *account

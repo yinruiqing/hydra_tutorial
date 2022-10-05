@@ -1,0 +1,2 @@
+defaults:
+  - db: mysql_extending_from_another_group
